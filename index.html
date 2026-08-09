@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nalanda Vidya Mandir &mdash; CBSE School, Nursery to Grade 12</title>
+<meta name="description" content="Nalanda Vidya Mandir is a CBSE day school for Nursery through Grade 12, founded 1962. Admissions, academics, faculty, campus life, and more.">
+<link rel="stylesheet" href="css/style.css">
+<!--
+  PLACEHOLDER DATA — replace before going live:
+  - Address, phone, email (Contact section + footer)
+  - Instagram handle "@nvm.patasang" is set (Instagram section + contact) — update if it changes
+  - Founding year (1962), enrolment/faculty/result stats (hero + alumni)
+  - Admissions dates, seat counts (Admissions section)
+  - Faculty department blurbs — currently unnamed by design (no fabricated staff names)
+  - Gallery / Instagram tiles: real photos + captions from @nvm.patasang go in as they're gathered
+    (images/gallery/*.jpg, images/instagram/*.jpg) — see images/README.md
+  - Contact form and portal login are visual only; wire them to a real backend
+    (a form service like Formspree, or your school's SIS/LMS) before publishing.
+-->
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="wrap header-inner">
+    <a href="#home" class="brand">
+      <svg class="brand-mark" viewBox="0 0 44 44" aria-hidden="true">
+        <circle cx="22" cy="22" r="20.5" fill="none" stroke="var(--gold)" stroke-width="1.4"/>
+        <circle cx="22" cy="22" r="16.5" fill="none" stroke="var(--gold)" stroke-width="0.8" opacity="0.6"/>
+        <text x="22" y="27" text-anchor="middle" font-family="Iowan Old Style, Georgia, serif" font-size="14" fill="var(--gold-light)">NVM</text>
+      </svg>
+      <span class="brand-text">
+        <strong>Nalanda Vidya Mandir</strong>
+        <span>Est. 1962 &middot; CBSE</span>
+      </span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#academics">Academics</a></li>
+        <li><a href="#admissions">Admissions</a></li>
+        <li><a href="#faculty">Faculty</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#news">News &amp; Events</a></li>
+        <li><a href="#alumni">Alumni</a></li>
+        <li><a href="#portal">Portal</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a class="icon-link" href="#instagram" aria-label="Instagram">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+      </a>
+      <a class="btn btn-gold btn-sm" href="#admissions">Apply Now</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" id="navToggleIcon"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section id="home" class="hero">
+    <svg class="hero-arches" viewBox="0 0 1200 500" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+      <defs>
+        <linearGradient id="archFade" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="var(--gold)" stop-opacity="0.16"/>
+          <stop offset="1" stop-color="var(--gold)" stop-opacity="0"/>
+        </linearGradient>
+      </defs>
+      <g fill="none" stroke="var(--gold)" stroke-opacity="0.25" stroke-width="1.2">
+        <path d="M -20 500 L -20 340 A 80 80 0 0 1 140 340 L 140 500"/>
+        <path d="M 120 500 L 120 340 A 80 80 0 0 1 280 340 L 280 500"/>
+        <path d="M 260 500 L 260 340 A 80 80 0 0 1 420 340 L 420 500"/>
+        <path d="M 400 500 L 400 340 A 80 80 0 0 1 560 340 L 560 500"/>
+        <path d="M 540 500 L 540 340 A 80 80 0 0 1 700 340 L 700 500"/>
+        <path d="M 680 500 L 680 340 A 80 80 0 0 1 840 340 L 840 500"/>
+        <path d="M 820 500 L 820 340 A 80 80 0 0 1 980 340 L 980 500"/>
+        <path d="M 960 500 L 960 340 A 80 80 0 0 1 1120 340 L 1120 500"/>
+        <path d="M 1100 500 L 1100 340 A 80 80 0 0 1 1260 340 L 1260 500"/>
+      </g>
+      <rect x="0" y="0" width="1200" height="500" fill="url(#archFade)"/>
+    </svg>
+
+    <div class="wrap hero-inner">
+      <p class="eyebrow hero-eyebrow">Nursery &mdash; Grade 12 &middot; New Admissions Open</p>
+      <h1>Nalanda Vidya Mandir</h1>
+      <p class="motto">"विद्या ददाति विनयम्"
+        <small>Vidyā dadāti vinayam &mdash; knowledge, rightly earned, gives humility. Our founding line, borrowed from an old Sanskrit verse, is still the only motto we've needed.</small>
+      </p>
+      <p class="lede">A day school built in the spirit of the ancient university whose name it carries &mdash; where questions are asked out loud, and no one studies entirely alone.</p>
+      <div class="hero-cta">
+        <a href="#admissions" class="btn btn-gold">Apply for Admission 2027&ndash;28</a>
+        <a href="#academics" class="btn btn-outline">Explore Academics</a>
+      </div>
+
+      <div class="stat-strip">
+        <div class="stat"><b data-count="1962" data-plain="true">1962</b><span>Founded</span></div>
+        <div class="stat"><b data-count="1800">0</b><span>Students enrolled</span></div>
+        <div class="stat"><b data-count="120">0</b><span>Faculty &amp; staff</span></div>
+        <div class="stat"><b data-count="98" data-suffix="%">0%</b><span>Grade 12 board results</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about">
+    <div class="wrap">
+      <div class="about-grid">
+        <div class="reveal">
+          <p class="eyebrow">About the school</p>
+          <h2 class="section-head" style="margin-bottom:0">A school named after a library</h2>
+          <div class="body-text" style="margin-top:1.4rem;">
+            <p>Nalanda, in the 5th century, drew scholars from Korea to Persia to a monastery in Bihar that housed one of the ancient world's largest libraries. We took the name deliberately: not as decoration, but as a standard to keep failing upward toward.</p>
+            <p>Our mission is plain &mdash; to raise learners who are confident without being certain, who can defend an idea and still change their mind, and who leave school as good at listening as they are at arguing.</p>
+          </div>
+
+          <div class="principal-note">
+            <p>"A school's real library is not its shelves but its questions. At Nalanda Vidya Mandir, we still ask them the old way &mdash; out loud, and to each other."</p>
+            <cite>&mdash; Office of the Principal</cite>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <p class="eyebrow">What we hold to</p>
+          <div class="values">
+            <div class="value-card">
+              <div class="glyph">विद्या</div>
+              <div class="translit">Vidyā &middot; Knowledge</div>
+              <h4>Curiosity over syllabus</h4>
+              <p>We chase questions further than the exam asks them to go.</p>
+            </div>
+            <div class="value-card">
+              <div class="glyph">शीलम्</div>
+              <div class="translit">Śīlam &middot; Character</div>
+              <h4>Conduct over marks</h4>
+              <p>Marks fade by graduation; conduct is what a school gets remembered for.</p>
+            </div>
+            <div class="value-card">
+              <div class="glyph">सङ्घः</div>
+              <div class="translit">Saṅghaḥ &middot; Community</div>
+              <h4>No solitary scholars</h4>
+              <p>No one at the original Nalanda studied alone &mdash; neither should ours.</p>
+            </div>
+            <div class="value-card">
+              <div class="glyph">सेवा</div>
+              <div class="translit">Sevā &middot; Service</div>
+              <h4>Owed to the street outside</h4>
+              <p>Every classroom here owes something back to the neighbourhood around it.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ACADEMICS ================= -->
+  <section id="academics" class="section-alt">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Academics</p>
+        <h2>Five stages, one CBSE curriculum</h2>
+        <p>From first alphabets to board exams, each stage hands the next one a student who's ready for more responsibility, not less.</p>
+      </div>
+
+      <div class="stage-grid reveal">
+        <div class="stage-card">
+          <div class="grade">Nursery&ndash;UKG &middot; Ages 3&ndash;5</div>
+          <h4>Early Years</h4>
+          <p>Play-led learning, phonics, motor skills, and first friendships.</p>
+        </div>
+        <div class="stage-card">
+          <div class="grade">Grades 1&ndash;5</div>
+          <h4>Primary</h4>
+          <p>Foundational literacy and numeracy, and a growing appetite for how things work.</p>
+        </div>
+        <div class="stage-card">
+          <div class="grade">Grades 6&ndash;8</div>
+          <h4>Middle School</h4>
+          <p>Subject specialists, science labs, a second language, and first debates.</p>
+        </div>
+        <div class="stage-card">
+          <div class="grade">Grades 9&ndash;10</div>
+          <h4>Secondary</h4>
+          <p>CBSE board preparation with a deliberate bias toward depth over rote.</p>
+        </div>
+        <div class="stage-card">
+          <div class="grade">Grades 11&ndash;12</div>
+          <h4>Senior Secondary</h4>
+          <p>Science, Commerce, and Humanities streams, with mentorship for entrance exams.</p>
+        </div>
+      </div>
+
+      <div class="facility-row reveal">
+        <div class="facility-pill"><svg class="icon" viewBox="0 0 24 24"><path d="M4 19.5V6a2 2 0 0 1 2-2h13v15.5"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H19"/></svg>Library &amp; Reading Room</div>
+        <div class="facility-pill"><svg class="icon" viewBox="0 0 24 24"><path d="M9 2v6L4 20a1 1 0 0 0 1 2h14a1 1 0 0 0 1-2L15 8V2"/><path d="M9 2h6"/><path d="M7 15h10"/></svg>Science &amp; Computer Labs</div>
+        <div class="facility-pill"><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="8" r="5"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/></svg>Sports Complex</div>
+        <div class="facility-pill"><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="9" cy="10" r="1.4" fill="currentColor" stroke="none"/><circle cx="14" cy="8.5" r="1.2" fill="currentColor" stroke="none"/><circle cx="15" cy="14" r="1.3" fill="currentColor" stroke="none"/></svg>Art &amp; Music Studio</div>
+        <div class="facility-pill"><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="1.5"/><path d="M8 20h8M12 16v4"/></svg>Smart Classrooms</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ADMISSIONS ================= -->
+  <section id="admissions">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Admissions</p>
+        <h2>Five steps, start to enrolment</h2>
+        <p>Admissions for 2027&ndash;28 are open. Lateral entry to Grades 6 and 9 is subject to seat availability.</p>
+      </div>
+
+      <div class="admissions-layout">
+        <div class="process-steps reveal">
+          <div class="process-step">
+            <div class="step-num">1</div>
+            <div><h4>Enquiry &amp; campus visit</h4><p>Reach out or walk in for a tour and a conversation with our admissions team.</p></div>
+          </div>
+          <div class="process-step">
+            <div class="step-num">2</div>
+            <div><h4>Application</h4><p>Submit the form with basic student and family details.</p></div>
+          </div>
+          <div class="process-step">
+            <div class="step-num">3</div>
+            <div><h4>Interaction or assessment</h4><p>An age-appropriate conversation for Nursery&ndash;Grade 2; a written assessment from Grade 3 onward.</p></div>
+          </div>
+          <div class="process-step">
+            <div class="step-num">4</div>
+            <div><h4>Document verification</h4><p>Birth certificate, previous school records where applicable, and address proof.</p></div>
+          </div>
+          <div class="process-step">
+            <div class="step-num">5</div>
+            <div><h4>Confirmation</h4><p>Offer letter, fee payment, and a welcome orientation before term begins.</p></div>
+          </div>
+
+          <div class="admit-cta">
+            <a href="#contact" class="btn btn-line">Download Prospectus</a>
+            <a href="#contact" class="btn btn-gold">Start Application</a>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <div class="overflow-x">
+            <table class="admit-table">
+              <thead><tr><th>Grade</th><th>Age (as on 31 Mar)</th><th>Seats</th></tr></thead>
+              <tbody>
+                <tr><td>Nursery</td><td>3+ years</td><td>40</td></tr>
+                <tr><td>LKG</td><td>4+ years</td><td>40</td></tr>
+                <tr><td>UKG</td><td>5+ years</td><td>40</td></tr>
+                <tr><td>Grade 1</td><td>6+ years</td><td>45</td></tr>
+                <tr><td>Grade 6 <span style="color:var(--ink-soft); font-weight:400;">(lateral)</span></td><td>11+ years</td><td>30</td></tr>
+                <tr><td>Grade 9 <span style="color:var(--ink-soft); font-weight:400;">(lateral)</span></td><td>14+ years</td><td>20</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <ul class="key-dates">
+            <li>Admissions open <b>1 Nov 2026</b></li>
+            <li>Last date to apply <b>31 Jan 2027</b></li>
+            <li>Assessments &amp; interactions <b>Feb 2027</b></li>
+            <li>Academic year begins <b>1 Apr 2027</b></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FACULTY ================= -->
+  <section id="faculty" class="section-alt">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Faculty</p>
+        <h2>The people running the departments</h2>
+        <p>Eight departments, each led by teachers who've been doing this long enough to have opinions about it.</p>
+      </div>
+
+      <div class="faculty-grid reveal">
+        <div class="faculty-card"><div class="avatar">Mt</div><h4>Head of Mathematics</h4><div class="dept-tag">Mathematics</div><p class="quip">Makes proofs feel like puzzles, not punishments.</p></div>
+        <div class="faculty-card"><div class="avatar">Sc</div><h4>Head of Sciences</h4><div class="dept-tag">Physics &middot; Chemistry &middot; Biology</div><p class="quip">Runs the lab like it's the most interesting room in the building. It usually is.</p></div>
+        <div class="faculty-card"><div class="avatar">En</div><h4>Head of English &amp; Languages</h4><div class="dept-tag">Languages</div><p class="quip">Believes every student has one good essay hiding in them.</p></div>
+        <div class="faculty-card"><div class="avatar">Ss</div><h4>Head of Social Studies</h4><div class="dept-tag">History &middot; Civics &middot; Geography</div><p class="quip">Turns the news into a history lesson, and history into the news.</p></div>
+        <div class="faculty-card"><div class="avatar">Cs</div><h4>Head of Computer Science</h4><div class="dept-tag">Computer Science</div><p class="quip">Taught half the school to debug before they could drive.</p></div>
+        <div class="faculty-card"><div class="avatar">Fa</div><h4>Head of Fine Arts</h4><div class="dept-tag">Art &amp; Music</div><p class="quip">The corridor outside her room always smells like poster paint.</p></div>
+        <div class="faculty-card"><div class="avatar">Pe</div><h4>Head of Physical Education</h4><div class="dept-tag">Sports</div><p class="quip">Coaches the team that's never lost a home match... yet.</p></div>
+        <div class="faculty-card"><div class="avatar">Ey</div><h4>Head of Early Years</h4><div class="dept-tag">Nursery&ndash;UKG</div><p class="quip">Has a waiting list of five-year-olds who want to be in her class.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= GALLERY ================= -->
+  <section id="gallery">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Gallery</p>
+        <h2>Moments from the year</h2>
+        <p>Illustrative placeholders below &mdash; swap in real campus photography when it's ready.</p>
+      </div>
+
+      <div class="gallery-grid reveal">
+        <button class="gallery-tile" data-lightbox data-caption="Annual Day" style="background:linear-gradient(135deg,var(--navy-3),var(--gold))"><svg viewBox="0 0 100 75" preserveAspectRatio="none" opacity="0.35"><circle cx="20" cy="60" r="30" fill="var(--navy)"/><circle cx="85" cy="15" r="20" fill="var(--gold-light)"/></svg><span>Annual Day</span></button>
+        <button class="gallery-tile" data-lightbox data-caption="Science Fair" style="background:linear-gradient(135deg,var(--terracotta),var(--navy-2))"><svg viewBox="0 0 100 75" preserveAspectRatio="none" opacity="0.35"><rect x="10" y="10" width="30" height="55" fill="var(--gold)"/><rect x="55" y="30" width="35" height="35" fill="var(--navy)"/></svg><span>Science Fair</span></button>
+        <button class="gallery-tile" data-lightbox data-caption="Sports Meet" style="background:linear-gradient(135deg,var(--gold),var(--navy))"><svg viewBox="0 0 100 75" preserveAspectRatio="none" opacity="0.35"><circle cx="50" cy="38" r="34" fill="none" stroke="var(--navy)" stroke-width="3"/></svg><span>Sports Meet</span></button>
+        <button class="gallery-tile" data-lightbox data-caption="Library" style="background:linear-gradient(135deg,var(--navy),var(--terracotta))"><svg viewBox="0 0 100 75" preserveAspectRatio="none" opacity="0.35"><rect x="15" y="15" width="70" height="10" fill="var(--gold-light)"/><rect x="15" y="32" width="70" height="10" fill="var(--gold-light)"/><rect x="15" y="49" width="45" height="10" fill="var(--gold-light)"/></svg><span>Library</span></button>
+        <button class="gallery-tile" data-lightbox data-caption="Cultural Fest" style="background:linear-gradient(135deg,var(--gold-light),var(--navy-3))"><svg viewBox="0 0 100 75" preserveAspectRatio="none" opacity="0.3"><polygon points="50,10 90,65 10,65" fill="var(--navy)"/></svg><span>Cultural Fest</span></button>
+        <button class="gallery-tile" data-lightbox data-caption="Graduation Day" style="background:linear-gradient(135deg,var(--navy-2),var(--gold-strong))"><svg viewBox="0 0 100 75" preserveAspectRatio="none" opacity="0.35"><circle cx="30" cy="38" r="18" fill="var(--gold-light)"/><circle cx="65" cy="38" r="18" fill="var(--navy)"/></svg><span>Graduation Day</span></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= NEWS & EVENTS ================= -->
+  <section id="news" class="section-alt">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">News &amp; Events</p>
+        <h2>What's coming up</h2>
+      </div>
+
+      <div class="news-list reveal">
+        <div class="news-item">
+          <div class="date-badge"><div class="d">30</div><div class="my">Sep</div></div>
+          <div><h4>Parent&ndash;Teacher Meet</h4><p>Term 1 progress review for Grades 1&ndash;12; slots bookable through the portal.</p></div>
+        </div>
+        <div class="news-item">
+          <div class="date-badge"><div class="d">14</div><div class="my">Dec</div></div>
+          <div><h4>Annual Day</h4><p>A full evening of music, theatre, and the house cup handover, open to all families.</p></div>
+        </div>
+        <div class="news-item">
+          <div class="date-badge"><div class="d">20</div><div class="my">Dec</div></div>
+          <div><h4>Alumni Homecoming</h4><p>Our graduating batches return for the yearly reunion on the front lawn.</p></div>
+        </div>
+        <div class="news-item">
+          <div class="date-badge"><div class="d">22</div><div class="my">Jan</div></div>
+          <div><h4>Inter-House Sports Meet</h4><p>Four houses, one trophy, and a week of athletics across every age group.</p></div>
+        </div>
+        <div class="news-item">
+          <div class="date-badge"><div class="d">05</div><div class="my">Feb</div></div>
+          <div><h4>Science &amp; Innovation Fair</h4><p>Student-led projects judged by faculty and visiting alumni engineers.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ALUMNI ================= -->
+  <section id="alumni">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Alumni</p>
+        <h2>Where they went from here</h2>
+        <p>The alumni network stays involved long after graduation &mdash; as mentors, guest judges, and the loudest table at Homecoming.</p>
+      </div>
+
+      <div class="alumni-stats reveal">
+        <div><b>30+</b><span>Countries</span></div>
+        <div><b>5,000+</b><span>Graduates since 1962</span></div>
+        <div><b>Dec</b><span>Annual homecoming</span></div>
+      </div>
+
+      <div class="testimonial-grid reveal">
+        <div class="testimonial">
+          <div class="mark">&ldquo;</div>
+          <p class="quote">Nalanda didn't just teach me answers &mdash; it taught me which questions were worth asking twice.</p>
+          <footer><b>Ananya R.</b>Batch of 2015 &middot; Product Designer</footer>
+        </div>
+        <div class="testimonial">
+          <div class="mark">&ldquo;</div>
+          <p class="quote">The debate club terrified me at fourteen. By eighteen, it was the only reason I wasn't terrified of anything else.</p>
+          <footer><b>Rohan K.</b>Batch of 2009 &middot; Civil Services</footer>
+        </div>
+        <div class="testimonial">
+          <div class="mark">&ldquo;</div>
+          <p class="quote">I still have my Grade 8 lab notebook. I still use the handwriting my Hindi teacher made me practice.</p>
+          <footer><b>Meera S.</b>Batch of 2018 &middot; Research Scholar</footer>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PORTAL ================= -->
+  <section id="portal" class="portal-section">
+    <div class="wrap portal-layout">
+      <div class="portal-copy reveal">
+        <p class="eyebrow">Student &amp; Parent Portal</p>
+        <h2 class="section-head" style="margin-bottom:0;">Everything school, in one login</h2>
+        <ul class="portal-perks">
+          <li><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M8 2v4M16 2v4M3 10h18"/></svg>Timetables &amp; attendance</li>
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M4 19.5V6a2 2 0 0 1 2-2h13v15.5"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H19"/></svg>Homework &amp; assignments</li>
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>Report cards &amp; term results</li>
+          <li><svg class="icon" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Direct messages with teachers</li>
+        </ul>
+      </div>
+
+      <div class="login-card reveal">
+        <div class="role-tabs" role="tablist" aria-label="Portal login role">
+          <button type="button" class="active">Student</button>
+          <button type="button">Parent</button>
+          <button type="button">Faculty</button>
+        </div>
+        <form id="portalForm">
+          <div class="field">
+            <label for="portalUser">Admission / Staff ID</label>
+            <input id="portalUser" type="text" placeholder="e.g. NVM24118" autocomplete="username">
+          </div>
+          <div class="field">
+            <label for="portalPass">Password</label>
+            <input id="portalPass" type="password" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;" autocomplete="current-password">
+          </div>
+          <div class="field-row">
+            <span></span>
+            <a href="#contact">Forgot password?</a>
+          </div>
+          <button type="submit" class="btn btn-gold btn-block">Log In</button>
+          <p class="form-note" id="portalNote">Demo interface &mdash; connect this to your school's SIS/LMS to activate real logins.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= INSTAGRAM ================= -->
+  <section id="instagram" class="section-alt">
+    <div class="wrap">
+      <div class="insta-head reveal">
+        <div>
+          <p class="eyebrow">Campus Life</p>
+          <h2 style="margin-top:0.6rem;">Follow along on Instagram</h2>
+        </div>
+        <a class="btn btn-line" href="https://www.instagram.com/nvm.patasang" target="_blank" rel="noopener">
+          <svg class="icon" viewBox="0 0 24 24" style="width:18px;height:18px;"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+          @nvm.patasang
+        </a>
+      </div>
+      <div class="insta-grid reveal">
+        <button class="insta-tile placeholder" data-lightbox><div class="overlay"><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></svg></div></button>
+        <button class="insta-tile placeholder" data-lightbox><div class="overlay"><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></svg></div></button>
+        <button class="insta-tile placeholder" data-lightbox><div class="overlay"><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></svg></div></button>
+        <button class="insta-tile placeholder" data-lightbox><div class="overlay"><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></svg></div></button>
+        <button class="insta-tile placeholder" data-lightbox><div class="overlay"><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></svg></div></button>
+        <button class="insta-tile placeholder" data-lightbox><div class="overlay"><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></svg></div></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section id="contact">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Come see the campus</h2>
+        <p>Admissions tours run on weekday mornings; call ahead and we'll have someone waiting at the gate.</p>
+      </div>
+
+      <div class="contact-layout">
+        <div class="reveal">
+          <ul class="contact-info-list">
+            <li><svg class="icon" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><div><b>12 Gyan Marg, Sector 21</b><span>New Delhi &ndash; 110021, India</span></div></li>
+            <li><svg class="icon" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 2 .7 2.9a2 2 0 0 1-.4 2.1L8 10a16 16 0 0 0 6 6l1.3-1.4a2 2 0 0 1 2.1-.4c.9.4 1.9.6 2.9.7a2 2 0 0 1 1.7 2.1z"/></svg><div><b>+91 11 4567 8900</b><span>Mon&ndash;Sat, 8:00am&ndash;3:30pm</span></div></li>
+            <li><svg class="icon" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg><div><b>info@nalandavidyamandir.edu.in</b><span>Admissions &amp; general enquiries</span></div></li>
+          </ul>
+
+          <div class="social-row">
+            <a href="https://www.instagram.com/nvm.patasang" target="_blank" rel="noopener" aria-label="Instagram"><svg class="icon" style="width:18px;height:18px;" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></svg></a>
+            <a href="#" aria-label="Facebook"><svg class="icon" style="width:18px;height:18px;" viewBox="0 0 24 24"><path d="M15 8h2V4h-2a4 4 0 0 0-4 4v2H9v4h2v6h4v-6h2.5l.5-4H15V8z"/></svg></a>
+            <a href="#" aria-label="YouTube"><svg class="icon" style="width:18px;height:18px;" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="m10 9 5 3-5 3z" fill="currentColor" stroke="none"/></svg></a>
+            <a href="#" aria-label="X / Twitter"><svg class="icon" style="width:18px;height:18px;" viewBox="0 0 24 24"><path d="M4 4l16 16M20 4 4 20"/></svg></a>
+          </div>
+
+          <div class="map-graphic">
+            <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice">
+              <rect width="400" height="225" fill="var(--surface-2)"/>
+              <g stroke="var(--line)" stroke-width="1">
+                <path d="M0 40h400M0 90h400M0 140h400M0 190h400"/>
+                <path d="M60 0v225M140 0v225M240 0v225M330 0v225"/>
+              </g>
+              <path d="M0 150 Q120 110 200 130 T400 100" stroke="var(--gold)" stroke-width="3" fill="none" opacity="0.55"/>
+              <circle cx="200" cy="115" r="7" fill="var(--terracotta)"/>
+              <path d="M200 100 v-22" stroke="var(--terracotta)" stroke-width="3"/>
+              <circle cx="200" cy="78" r="5" fill="var(--terracotta)"/>
+            </svg>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-grid">
+            <div class="field"><label for="cName">Full name</label><input id="cName" type="text" placeholder="Your name"></div>
+            <div class="field"><label for="cRelation">I am a</label><input id="cRelation" type="text" placeholder="Prospective parent, alum, ..."></div>
+            <div class="field full"><label for="cEmail">Email</label><input id="cEmail" type="email" placeholder="you@example.com"></div>
+            <div class="field full"><label for="cSubject">Subject</label><input id="cSubject" type="text" placeholder="Admission enquiry for Grade 3"></div>
+            <div class="field full">
+              <label for="cMessage">Message</label>
+              <textarea id="cMessage" placeholder="Tell us what you'd like to know"></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-gold btn-block" style="margin-top:0.5rem;">Send Message</button>
+          <p class="form-note" id="contactNote">Demo form &mdash; connect it to a form service or your backend to receive messages.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#home" style="margin:0;">
+          <svg class="brand-mark" viewBox="0 0 44 44" aria-hidden="true" style="width:38px;height:38px;">
+            <circle cx="22" cy="22" r="20.5" fill="none" stroke="var(--gold)" stroke-width="1.4"/>
+            <text x="22" y="27" text-anchor="middle" font-family="Iowan Old Style, Georgia, serif" font-size="14" fill="var(--gold-light)">NVM</text>
+          </svg>
+          <span class="brand-text"><strong style="color:var(--on-navy);">Nalanda Vidya Mandir</strong></span>
+        </a>
+        <p>A CBSE day school for Nursery through Grade 12, built in the spirit of the ancient university whose name it borrows.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#academics">Academics</a></li>
+          <li><a href="#faculty">Faculty</a></li>
+          <li><a href="#alumni">Alumni</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Involved</h5>
+        <ul>
+          <li><a href="#admissions">Admissions</a></li>
+          <li><a href="#news">News &amp; Events</a></li>
+          <li><a href="#portal">Student Portal</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Stay in touch</h5>
+        <p style="font-size:0.85rem;">Term updates and event reminders, a few times a month.</p>
+        <div class="newsletter">
+          <input type="email" placeholder="you@example.com" aria-label="Email for newsletter">
+          <button type="button" class="btn btn-gold btn-sm">Join</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; <span id="year">2026</span> Nalanda Vidya Mandir. All rights reserved.</span>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#home" class="to-top">Back to top &uarr;</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= LIGHTBOX ================= -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close">
+    <svg class="icon" viewBox="0 0 24 24" style="width:20px;height:20px;"><path d="M6 6l12 12M18 6 6 18"/></svg>
+  </button>
+  <div class="lightbox-inner">
+    <img id="lightboxImg" src="" alt="">
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
